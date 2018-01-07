@@ -1,4 +1,4 @@
-'''Deep Sort modified to be used for JR.'''
+'''Deep tracker be used for JR.'''
 
 import os
 import numpy as np
@@ -116,7 +116,7 @@ def create_detections(detections, min_height=0):
         detection_list.append(Detection(bbox, confidence, feature))
     return detection_list
 
-class Deep_Sort(object):
+class Deep_Tracker(object):
   def __init__(
     self, model_ckpts, n_init=15, max_age=45,
 	min_confidence = 0.3, min_detection_height = 0, nms_max_overlap = 1.0):
