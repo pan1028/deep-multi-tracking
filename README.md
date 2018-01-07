@@ -9,7 +9,7 @@ The tracker implemented combine the following two papers:
 The first paper present a state of art deep learning model to do multiple object tracking.
 The second paper present a simple online Kalman Filter tracker.
 
-The model implemented in this repo novelly combine both tracker, which can do online multiple object tracking using both apperance and motion features.
+The model implemented in this repo novelly combine both tracker, which can do online multiple object tracking using a state of art deep learning model to identify the apperance features and a simple online Kalman filter tracker to identify motion features.
 
 ## Overview of Files
 
